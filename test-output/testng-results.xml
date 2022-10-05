@@ -2,18 +2,18 @@
 <testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Zerodha_EndToEndFlow" duration-ms="145" started-at="2022-09-28T10:48:46 IST" finished-at="2022-09-28T10:48:46 IST">
+  <suite name="Zerodha_EndToEndFlow" duration-ms="223" started-at="2022-10-05T12:38:34 IST" finished-at="2022-10-05T12:38:34 IST">
     <groups>
     </groups>
-    <test name="EndToEnd-Test" duration-ms="145" started-at="2022-09-28T10:48:46 IST" finished-at="2022-09-28T10:48:46 IST">
+    <test name="EndToEnd-Test" duration-ms="223" started-at="2022-10-05T12:38:34 IST" finished-at="2022-10-05T12:38:34 IST">
       <class name="com.zerodha.TestCases.DashboardPageTest">
-        <test-method status="FAIL" signature="setup()[pri:0, instance:com.zerodha.TestCases.DashboardPageTest@1f57539]" name="setup" is-config="true" duration-ms="64" started-at="2022-09-28T10:48:46 IST" finished-at="2022-09-28T10:48:46 IST">
+        <test-method status="FAIL" signature="setup()[pri:0, instance:com.zerodha.TestCases.DashboardPageTest@1f57539]" name="setup" is-config="true" duration-ms="99" started-at="2022-10-05T12:38:34 IST" finished-at="2022-10-05T12:38:34 IST">
           <exception class="java.lang.IllegalStateException">
             <message>
-              <![CDATA[The driver executable does not exist: D:\Akshay\Software Testing\Eclips Workspace\kite_Zerodha_TestStage\"D:\Akshay\Software Testing\Automation Testing\4 - Maven Project\2 - kite_Zerodha_TestStage\1 - src,main,java\4 - com.zerodha.resources\chromedriver.exe"]]>
+              <![CDATA[The driver executable does not exist: D:\Akshay\Software Testing\Automation Testing\5 - Git & Git Hub\Downloaded_Zerodha_Practice_Project\Zerodha_Practice_Project\"D:\Akshay\Software Testing\Automation Testing\4 - Maven Project\2 - kite_Zerodha_TestStage\1 - src,main,java\4 - com.zerodha.resources\chromedriver.exe"]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: D:\Akshay\Software Testing\Eclips Workspace\kite_Zerodha_TestStage\"D:\Akshay\Software Testing\Automation Testing\4 - Maven Project\2 - kite_Zerodha_TestStage\1 - src,main,java\4 - com.zerodha.resources\chromedriver.exe"
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: D:\Akshay\Software Testing\Automation Testing\5 - Git & Git Hub\Downloaded_Zerodha_Practice_Project\Zerodha_Practice_Project\"D:\Akshay\Software Testing\Automation Testing\4 - Maven Project\2 - kite_Zerodha_TestStage\1 - src,main,java\4 - com.zerodha.resources\chromedriver.exe"
 at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
 at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
 at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
@@ -62,13 +62,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="validateBuyingFun()[pri:0, instance:com.zerodha.TestCases.DashboardPageTest@1f57539]" name="validateBuyingFun" duration-ms="1" started-at="2022-09-28T10:48:46 IST" finished-at="2022-09-28T10:48:46 IST">
+        <test-method status="SKIP" signature="validateBuyingFun()[pri:0, instance:com.zerodha.TestCases.DashboardPageTest@1f57539]" name="validateBuyingFun" duration-ms="0" started-at="2022-10-05T12:38:34 IST" finished-at="2022-10-05T12:38:34 IST">
           <exception class="java.lang.IllegalStateException">
             <message>
-              <![CDATA[The driver executable does not exist: D:\Akshay\Software Testing\Eclips Workspace\kite_Zerodha_TestStage\"D:\Akshay\Software Testing\Automation Testing\4 - Maven Project\2 - kite_Zerodha_TestStage\1 - src,main,java\4 - com.zerodha.resources\chromedriver.exe"]]>
+              <![CDATA[The driver executable does not exist: D:\Akshay\Software Testing\Automation Testing\5 - Git & Git Hub\Downloaded_Zerodha_Practice_Project\Zerodha_Practice_Project\"D:\Akshay\Software Testing\Automation Testing\4 - Maven Project\2 - kite_Zerodha_TestStage\1 - src,main,java\4 - com.zerodha.resources\chromedriver.exe"]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: D:\Akshay\Software Testing\Eclips Workspace\kite_Zerodha_TestStage\"D:\Akshay\Software Testing\Automation Testing\4 - Maven Project\2 - kite_Zerodha_TestStage\1 - src,main,java\4 - com.zerodha.resources\chromedriver.exe"
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: D:\Akshay\Software Testing\Automation Testing\5 - Git & Git Hub\Downloaded_Zerodha_Practice_Project\Zerodha_Practice_Project\"D:\Akshay\Software Testing\Automation Testing\4 - Maven Project\2 - kite_Zerodha_TestStage\1 - src,main,java\4 - com.zerodha.resources\chromedriver.exe"
 at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
 at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
 at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
@@ -117,7 +117,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateBuyingFun -->
-        <test-method status="SKIP" signature="closeDashTest()[pri:0, instance:com.zerodha.TestCases.DashboardPageTest@1f57539]" name="closeDashTest" is-config="true" duration-ms="-1664342326227" started-at="2022-09-28T10:48:46 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="closeDashTest()[pri:0, instance:com.zerodha.TestCases.DashboardPageTest@1f57539]" name="closeDashTest" is-config="true" duration-ms="-1664953714563" started-at="2022-10-05T12:38:34 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDashTest -->
